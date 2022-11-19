@@ -44,9 +44,10 @@ struct Doctor: Codable {
     let specializations: [Specialization]
     let avg_rating, total_rating: Int
     let about: String
-//    let youtube_link: String
-    let hour_price, created_at: String
-    let user: Int
+    let user: User
+////    let youtube_link: String
+//    let hour_price, created_at: String
+//    let user: Int
 }
 
 // MARK: - Category
@@ -60,4 +61,12 @@ struct Category: Codable {
 struct Specialization: Codable {
     let id: Int
     let title: String
+}
+
+struct User: Codable
+{
+    let id: Int
+    let username, full_name: String
+    let pic: String
+    let email: String
 }
