@@ -18,11 +18,11 @@
 		C13F08BE2927EC420043A033 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F08BD2927EC420043A033 /* NetworkManager.swift */; };
 		C13F08C12927EE130043A033 /* HomeVeiwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13F08C02927EE130043A033 /* HomeVeiwModel.swift */; };
 		C166C03C29281BDE00F2C4D3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C166C03B29281BDE00F2C4D3 /* File.swift */; };
-		C166C04029281CA400F2C4D3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C166C03D29281CA400F2C4D3 /* LoginVC.swift */; };
-		C166C04129281CA400F2C4D3 /* SuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C166C03E29281CA400F2C4D3 /* SuccessVC.swift */; };
-		C166C04229281CA400F2C4D3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C166C03F29281CA400F2C4D3 /* Login.swift */; };
 		C166C04429281CD900F2C4D3 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C166C04329281CD900F2C4D3 /* Main.swift */; };
 		C1B2B61F292875E1006BCEE4 /* PsixologViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2B61E292875E1006BCEE4 /* PsixologViewModel.swift */; };
+		C1B2B6232928A80C006BCEE4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2B6202928A80C006BCEE4 /* Login.swift */; };
+		C1B2B6242928A80C006BCEE4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2B6212928A80C006BCEE4 /* LoginVC.swift */; };
+		C1B2B6252928A80C006BCEE4 /* SuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2B6222928A80C006BCEE4 /* SuccessVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,11 +39,11 @@
 		C13F08C02927EE130043A033 /* HomeVeiwModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVeiwModel.swift; sourceTree = "<group>"; };
 		C166C03A2927FFC800F2C4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C166C03B29281BDE00F2C4D3 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		C166C03D29281CA400F2C4D3 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = ../../../../Downloads/HealthCareApp/HealthCareApp/LoginVC.swift; sourceTree = "<group>"; };
-		C166C03E29281CA400F2C4D3 /* SuccessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuccessVC.swift; path = ../../../../Downloads/HealthCareApp/HealthCareApp/SuccessVC.swift; sourceTree = "<group>"; };
-		C166C03F29281CA400F2C4D3 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = ../../../../Downloads/HealthCareApp/HealthCareApp/Login.swift; sourceTree = "<group>"; };
 		C166C04329281CD900F2C4D3 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		C1B2B61E292875E1006BCEE4 /* PsixologViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsixologViewModel.swift; sourceTree = "<group>"; };
+		C1B2B6202928A80C006BCEE4 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C1B2B6212928A80C006BCEE4 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C1B2B6222928A80C006BCEE4 /* SuccessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +104,10 @@
 			children = (
 				C13F08A92927E3D50043A033 /* Home.swift */,
 				C166C03B29281BDE00F2C4D3 /* File.swift */,
-				C166C03F29281CA400F2C4D3 /* Login.swift */,
-				C166C03D29281CA400F2C4D3 /* LoginVC.swift */,
-				C166C03E29281CA400F2C4D3 /* SuccessVC.swift */,
 				C13F08C02927EE130043A033 /* HomeVeiwModel.swift */,
+				C1B2B6202928A80C006BCEE4 /* Login.swift */,
+				C1B2B6212928A80C006BCEE4 /* LoginVC.swift */,
+				C1B2B6222928A80C006BCEE4 /* SuccessVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -193,15 +193,15 @@
 			files = (
 				C13F08AA2927E3D50043A033 /* Home.swift in Sources */,
 				C13F08BC2927E5D80043A033 /* VideoLesson.swift in Sources */,
+				C1B2B6252928A80C006BCEE4 /* SuccessVC.swift in Sources */,
 				C13F08A82927E3D50043A033 /* ZeroApp.swift in Sources */,
-				C166C04229281CA400F2C4D3 /* Login.swift in Sources */,
+				C1B2B6232928A80C006BCEE4 /* Login.swift in Sources */,
 				C166C04429281CD900F2C4D3 /* Main.swift in Sources */,
 				C13F08C12927EE130043A033 /* HomeVeiwModel.swift in Sources */,
-				C166C04029281CA400F2C4D3 /* LoginVC.swift in Sources */,
 				C13F08BE2927EC420043A033 /* NetworkManager.swift in Sources */,
-				C166C04129281CA400F2C4D3 /* SuccessVC.swift in Sources */,
 				C13F08B82927E4E50043A033 /* Psixolog.swift in Sources */,
 				C13F08BA2927E52A0043A033 /* Chat.swift in Sources */,
+				C1B2B6242928A80C006BCEE4 /* LoginVC.swift in Sources */,
 				C1B2B61F292875E1006BCEE4 /* PsixologViewModel.swift in Sources */,
 				C166C03C29281BDE00F2C4D3 /* File.swift in Sources */,
 				C13F08B62927E4810043A033 /* Test.swift in Sources */,
