@@ -20,7 +20,7 @@ public class NetworkingManager {
     @Published var error: Bool? = false
     @Published var notActiveUser = false
     static var cancellable = Set<AnyCancellable>()
-    static let baseUrl = "https://8130-84-54-83-231.eu.ngrok.io"
+    static let baseUrl = "https://e01e-84-54-83-231.eu.ngrok.io"
     let testToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjcxMzgxNjA4LCJpYXQiOjE2Njg3ODk2MDgsImp0aSI6IjdiMTE1Mjk1MTY5NjRjMGQ5ZGVjZWI0ZmZmYjlkNWI2IiwidXNlcl9pZCI6Mn0.GMXaA3Io6OXoJNonSi0a_YsSQqpYla71NkWE0BFITtA"
     
     //MARK: - Refresh Token

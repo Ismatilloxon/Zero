@@ -32,7 +32,7 @@ struct Main: View {
             
             Chat()
                 .tabItem {
-                    Label("Psixolog", systemImage: "message")
+                    Label("Chat", systemImage: "message")
                 }
             
             VideoLesson()

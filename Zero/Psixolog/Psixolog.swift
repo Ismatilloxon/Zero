@@ -15,7 +15,7 @@ struct Psixolog: View {
         NavigationStack {
             VStack {
                 ScrollView {
-                    VStack {
+                    VStack(alignment: .leading) {
                         ForEach(0..<(vm.doctors?.results.count ?? 0), id:\.self) { index in
                             HStack {
                                 AsyncImage(url: URL(string: vm.doctors?.results[index].user.pic ?? "")) { image in
@@ -41,7 +41,7 @@ struct Psixolog: View {
                             }
                             
                             
-                            LazyVGrid(columns: threeColumnGrid, alignment: .center, spacing: 16) {
+                            LazyVGrid(columns: threeColumnGrid, alignment: .center, spacing: 8) {
                                 
                                 ForEach(0..<(vm.doctors?.results[index].specializations.count ?? 0), id: \.self) { j in
                                     VStack {
@@ -60,6 +60,14 @@ struct Psixolog: View {
                                             )
                                     }
                                 }
+                            }
+                            
+                            
+                            Button(action: {
+                                
+                            }) {
+                                Text("Batafsil").foregroundColor(Color.blue).frame(width: UIScreen.main.bounds.width - 48, height: 50).background(Color.blue.opacity(0.1))
+                                    
                             }
                         }
                     }
