@@ -9,9 +9,26 @@ import SwiftUI
 
 @main
 struct ZeroApp: App {
+    
+    @StateObject var homeVm = HomeViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if UserDefaults.standard.bool(forKey: "isRegistr") {
+                Main()
+            }
+            else {
+                ContentView()
+            }
         }
     }
 }
+
+
+
+
+
+
+// App local propperties
+public let with = UIScreen.main.bounds.width
+public let height = UIScreen.main.bounds.height
